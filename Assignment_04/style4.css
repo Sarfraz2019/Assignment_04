@@ -1,0 +1,28 @@
+#tick{
+    text-align: center;
+    padding: 80px;
+}
+#thank{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    
+    color: #00b729;
+}
+#submited{
+    color: #971bdf;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+}
+#tickimg{
+    width: 200px;
+    /* width: 10%;
+     height :100px; */
+}
+#goback{
+    color: #6c4870;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 16px;
+}

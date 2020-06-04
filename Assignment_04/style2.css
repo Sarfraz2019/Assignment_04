@@ -1,0 +1,165 @@
+form{
+       width: 500px;
+       padding: 10px;
+       margin: 0 auto;
+       /* text-align: center; */
+    }
+
+    input{
+        padding: 10px;
+        margin: 5px;
+        font-size: 1em;  
+        border: 1px solid grey; 
+       }
+       
+       input:focus{
+           border-color: #44a2a3;
+           background-color: rgb(135, 235, 230);
+       }
+       input.username{
+           /* background-image: url('https://image.shutterstock.com/image-vector/mail-logo-260nw-468389300.jpg'); */
+           background-size: 40px;
+           background-repeat: no-repeat;
+           padding: 10px 10px 10px 40px;
+                 
+       }
+       
+       input.password{
+           /* background-image: url('https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/lock-24-512.png'); */
+           background-size: 40px;
+           background-repeat: no-repeat;
+           padding: 10px 10px 10px 40px;
+                 
+       }
+       input.check{
+        padding: 10px 10px 10px 40px;
+        background-size: 40px
+       }
+       
+       button{
+           padding: 10px;
+           margin: 5px;
+           font-size: 1em;
+           border: none;
+           background-color:#44a2a3;
+           color: white;
+           border-radius: 5px;
+           cursor: pointer;
+       }
+
+       button:hover{
+        padding: 10px;
+        margin: 5px;
+        font-size: 1em;
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+       fieldset{
+        border-radius: 5px;
+        border: 1px solid #44a2a3;
+    }
+    
+    legend{
+       width: 200px;
+        color: #58e6f3;
+       background-color: #44a2a3 !important;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 20px;
+        
+    }
+    
+    .center{
+        text-align: left;
+    }
+    
+    /* label inline element hta hai yn change kr rhe han width dne k liye */
+    label{
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    
+    }     
+    div.forgot,div.click{
+        text-align: center;
+        background-color: rgb(190, 184, 184);
+    }
+    a.forgot,a.click{
+        color: #216365;
+    }
+    a.forgot:hover,a.click:hover{
+        color: #0f868a;
+    }
+
+    fieldset{
+        width: 500px;
+        height: 400px;
+        padding: 10px;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+
+   
+    @media screen and (max-width: 570px) {
+        fieldset{
+            width: 280px;
+        }
+    
+      }
+      @media screen and (max-width: 543px) {
+        fieldset{
+            width: 250px;
+        }
+    
+      }
+    @media screen and (max-width: 490px) {
+        fieldset{
+            width: 250px;
+        }
+    
+      }
+      @media screen and (max-width: 480px) {
+        fieldset{
+            width: 250px;
+        }
+    
+      }
+      @media screen and (max-width: 420px) {
+        fieldset{
+            width: 250px;
+        }
+    
+      }
+      @media screen and (max-width: 365px) {
+        fieldset{
+            width: 250px;
+        }
+    
+      }
+      @media screen and (max-width: 360px) {
+        fieldset{
+            width: 200px;
+        }
+    
+      }
+      @media screen and (max-width: 720px) {
+        fieldset{
+            
+            width: 400px;
+        }
+
+       
+    
+      }
+      @media screen and (max-width: 750px) {
+        fieldset{
+            width: 300px;
+        }
+    
+      }
+
+      
